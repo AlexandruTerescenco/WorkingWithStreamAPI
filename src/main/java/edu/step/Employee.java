@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.List;
 
 public class Employee {
-    //private static List<Employee> Employees = new ArrayList<>();
     private String name;
     private double salary;
     public enum Gender {
@@ -23,7 +22,6 @@ public class Employee {
         this.salary = salary;
         this.gender = gender;
         this.birthday = birthday;
-        //Employees.add(this);
     }
 
     public double getSalary() {

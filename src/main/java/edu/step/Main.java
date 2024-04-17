@@ -41,10 +41,7 @@ public class Main {
 
         //Streams
         DoubleSummaryStatistics highest = Employees.stream().collect(Collectors.summarizingDouble(e -> e.getSalary()));
-        //DoubleSummaryStatistics highester = Employees.stream().
         System.out.println("Highest salary - " + highest.getMax());
-        //System.out.println("Highest salary - " + highester);
 
-        
     }
 }
